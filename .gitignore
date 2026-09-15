@@ -6,6 +6,7 @@ venv/
 .venv/
 node_modules/
 dist/
+documents/**/*.pdf
 documents/*.pdf
 .DS_Store
 Thumbs.db

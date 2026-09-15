@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IP-SAKTI Sahayak</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="topbar">
+
+        <div class="brand">
+            <div class="brand-icon">⚖</div>
+
+            <div>
+                <h2>IP-SAKTI</h2>
+                <span>Sahayak</span>
+            </div>
+        </div>
+
+        <div class="top-actions">
+
+            <select id="jurisdiction">
+                <option value="India">🇮🇳 India</option>
+                <option value="International">🌐 International</option>
+            </select>
+
+            <select id="language">
+                <option value="English">English</option>
+                <option value="Hindi">हिन्दी</option>
+            </select>
+
+            <button class="icon-btn" id="themeBtn" title="Toggle theme">
+                ◐
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+    <main class="main-container">
+
+        <!-- HERO -->
+        <section class="hero" id="hero">
+
+            <div class="hero-badge">
+                ✦ AI-Powered Legal Intelligence
+            </div>
+
+            <h1>
+                Ayurveda IP &<br>
+                <span>Regulatory Intelligence</span>
+            </h1>
+
+            <p>
+                Ask questions about patents, traditional knowledge,
+                biodiversity, ABS, trademarks and Ayurveda regulations.
+            </p>
+
+
+            <!-- SEARCH BOX -->
+            <div class="search-wrapper">
+
+                <textarea
+                    id="queryInput"
+                    placeholder="Ask anything about Ayurveda IP, laws & regulations..."
+                    rows="1"
+                ></textarea>
+
+                <div class="search-bottom">
+
+                    <div class="search-tools">
+
+                        <button class="tool-btn" id="classifierBtn">
+                            ⚗ <span>Classify Formulation</span>
+                        </button>
+
+                        <button class="tool-btn" id="absBtn">
+                            🌿 <span>ABS / TK Helper</span>
+                        </button>
+
+                    </div>
+
+                    <button class="send-btn" id="sendBtn">
+                        ↑
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- SUGGESTIONS -->
+            <div class="suggestions">
+
+                <button class="suggestion"
+                    data-question="Can my Ayurvedic formulation be patented?">
+                    💡 Can my Ayurvedic formulation be patented?
+                </button>
+
+                <button class="suggestion"
+                    data-question="What does Section 3(p) of the Patents Act mean?">
+                    📜 What does Section 3(p) mean?
+                </button>
+
+                <button class="suggestion"
+                    data-question="What are ABS requirements for using Indian biological resources?">
+                    🌿 What are ABS requirements?
+                </button>
+
+                <button class="suggestion"
+                    data-question="How can I protect traditional Ayurvedic knowledge?">
+                    🛡 How can I protect traditional knowledge?
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CHAT AREA ================= -->
+        <section class="chat-section" id="chatSection">
+
+            <div id="chatMessages"></div>
+
+            <!-- Loading -->
+            <div class="loading-message hidden" id="loadingMessage">
+
+                <div class="ai-avatar">✦</div>
+
+                <div class="typing">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <span>IP-SAKTI is researching your sources...</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURE CARDS ================= -->
+        <section class="features" id="features">
+
+            <div class="section-heading">
+                <span>EXPLORE</span>
+                <h2>What can IP-SAKTI help with?</h2>
+            </div>
+
+
+            <div class="feature-grid">
+
+                <button class="feature-card" data-question="Can an Ayurvedic formulation be patented?">
+
+                    <div class="feature-icon patent">📜</div>
+
+                    <div>
+                        <h3>Patent & IP</h3>
+                        <p>
+                            Understand patentability, Section 3(p),
+                            trademarks and GI protection.
+                        </p>
+                    </div>
+
+                    <span class="arrow">→</span>
+
+                </button>
+
+
+                <button class="feature-card" data-question="What is traditional knowledge and how can it be protected?">
+
+                    <div class="feature-icon knowledge">🌿</div>
+
+                    <div>
+                        <h3>Traditional Knowledge</h3>
+                        <p>
+                            Explore TK protection, TKDL and
+                            prevention of misappropriation.
+                        </p>
+                    </div>
+
+                    <span class="arrow">→</span>
+
+                </button>
+
+
+                <button class="feature-card" data-question="What are Access and Benefit Sharing requirements?">
+
+                    <div class="feature-icon abs">⚖</div>
+
+                    <div>
+                        <h3>ABS & Biodiversity</h3>
+                        <p>
+                            Understand Access & Benefit Sharing
+                            requirements for biological resources.
+                        </p>
+                    </div>
+
+                    <span class="arrow">→</span>
+
+                </button>
+
+
+                <button class="feature-card" data-question="How should I classify my Ayurvedic formulation?">
+
+                    <div class="feature-icon classify">⚗</div>
+
+                    <div>
+                        <h3>Formulation Classifier</h3>
+                        <p>
+                            Identify the likely regulatory category
+                            and relevant IP pathway.
+                        </p>
+                    </div>
+
+                    <span class="arrow">→</span>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= TRUST ================= -->
+        <section class="trust-section">
+
+            <div class="trust-item">
+                <strong>23+</strong>
+                <span>Legal Documents</span>
+            </div>
+
+            <div class="trust-line"></div>
+
+            <div class="trust-item">
+                <strong>2,800+</strong>
+                <span>Indexed Knowledge Chunks</span>
+            </div>
+
+            <div class="trust-line"></div>
+
+            <div class="trust-item">
+                <strong>RAG</strong>
+                <span>Source-Grounded Answers</span>
+            </div>
+
+            <div class="trust-line"></div>
+
+            <div class="trust-item">
+                <strong>🌐</strong>
+                <span>India + International</span>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <div>
+            <strong>IP-SAKTI Sahayak</strong>
+            <span> • AYUSH IP & Regulatory Assistant</span>
+        </div>
+
+        <div class="footer-links">
+            <button id="clearChat">Clear chat</button>
+            <button id="disclaimerBtn">Disclaimer</button>
+        </div>
+
+    </footer>
+
+
+    <!-- ================= DISCLAIMER MODAL ================= -->
+    <div class="modal hidden" id="disclaimerModal">
+
+        <div class="modal-box">
+
+            <button class="modal-close" id="closeModal">×</button>
+
+            <div class="modal-icon">⚠</div>
+
+            <h2>Important Disclaimer</h2>
+
+            <p>
+                IP-SAKTI Sahayak provides information retrieved from
+                legal and regulatory documents. It is intended for
+                informational and educational purposes only.
+            </p>
+
+            <p>
+                The responses do not constitute legal advice and should
+                not replace consultation with a qualified legal or
+                regulatory professional.
+            </p>
+
+            <button class="modal-ok" id="modalOk">
+                I Understand
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+Formulation Classification and IP Routing Rules for IP-SAKTI Sahayak
+
+Rule 1: Classical or Generic Ayurvedic Medicine
+- Definition: The formulation (ingredients and method) is exactly as described in the authoritative books listed in the First Schedule of the Drugs and Cosmetics Act, 1940.
+- Regulatory Posture: Regulated by AYUSH. No clinical trials required.
+- IP Posture: Considered Traditional Knowledge (TK). Cannot be patented due to Section 3(p) of the Patents Act, 1970. Defended through the Traditional Knowledge Digital Library (TKDL) as prior art. Can apply for Trademark.
+
+Rule 2: Patent or Proprietary Ayurvedic Medicine
+- Definition: Contains ingredients mentioned in the authoritative texts, but the formulation, method of preparation, or dosage form is modified. Does not include parenteral administration.
+- Regulatory Posture: Regulated by AYUSH. Requires proof of efficacy (published literature or pilot studies).
+- IP Posture: Patentability depends on proving a significant "synergistic effect" or "enhanced efficacy" over traditional knowledge, crossing the Section 3(d) and 3(p) barriers.
+
+Rule 3: New Drug / Non-Classical Ayurvedic Drug
+- Definition: A completely new plant or formulation not mentioned in traditional texts, or an extract/isolate used for a new medical indication.
+- Regulatory Posture: Regulated tightly. Requires extensive safety toxicity studies and clinical trials to prove safety and effectiveness.
+- IP Posture: High potential for Patents (Product and Process) as it is novel and involves an inventive step beyond traditional knowledge. 
+
+Rule 4: Phytopharmaceutical Drug
+- Definition: A purified and standardized fraction with defined minimum four bio-active or phytochemical compounds (qualitatively and quantitatively assessed) of an extract of a medicinal plant.
+- Regulatory Posture: Regulated by CDSCO (DCGI) under the Drugs and Cosmetics Rules. Treated similarly to modern medicine; requires rigorous clinical trials.
+- IP Posture: High patentability potential for the novel extraction process and the standardized fraction itself.
+
+Rule 5: Ayurveda Aahar (Nutraceutical / Food)
+- Definition: Food prepared in accordance with the recipes or ingredients from authoritative Ayurvedic texts. Does not include Ayurvedic drugs or proprietary medicines. Not meant to cure or treat diseases.
+- Regulatory Posture: Regulated by FSSAI under the Food Safety and Standards (Ayurveda Aahara) Regulations, 2022. Cannot claim to cure diseases on the label. Needs an "Ayurveda Aahar" logo.
+- IP Posture: Can get Trade Marks for branding. Process patents may be possible if the manufacturing involves a novel, non-obvious industrial process.
+
+Rule 6: Ayurvedic Cosmetic
+- Definition: Products containing Ayurvedic ingredients meant for rubbing, pouring, sprinkling, or spraying on the human body for cleansing, beautifying, promoting attractiveness, or altering the appearance.
+- Regulatory Posture: Regulated under the Cosmetics Rules. No medical claims allowed.
+- IP Posture: Can apply for Trademarks. Can apply for Design registration for unique packaging.
+
+General ABS Rule (For all categories):
+- If the formulation uses biological resources sourced from India for commercial utilization, the manufacturer must comply with the Access and Benefit Sharing (ABS) regulations under the National Biodiversity Authority (NBA) before obtaining any IP rights.
