@@ -2,7 +2,10 @@ import re
 
 from sentence_transformers import SentenceTransformer
 
-from db import get_connection
+try:
+    from .db import get_connection
+except ImportError:
+    from db import get_connection
 
 
 # --------------------------------------------------
